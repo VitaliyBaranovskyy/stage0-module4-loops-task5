@@ -7,9 +7,9 @@ public class Hourglass {
         for (i = 1; i <= height; i++){
             for(j=1; j<=height; j++){
                 if (i==j || i+j==height+1 || i==1 || i==height)
-                    System.out.print("8 ");
+                    System.out.print("8");
                 else 
-                    System.out.print("  ");
+                    System.out.print(" ");
             }
             System.out.println();
         }
